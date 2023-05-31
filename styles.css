@@ -1,0 +1,25 @@
+textarea{
+    width: 80%;
+    height: 10vh;
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#btn-translate{
+    padding: 0.5rem
+}
+
+.guide{
+    font-size: larger;
+    margin: 1rem;
+}
+
+#output{
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+}
