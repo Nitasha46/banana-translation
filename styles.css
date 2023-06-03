@@ -1,25 +1,89 @@
+
+
+:root{
+    --primary-color: #F2C94C;
+    --black: #333333;
+    --font: 'Kalam', cursive;
+}
+
+body{
+    margin: 0%;
+    font-family: var(--font);
+    color: #333333;
+}
+
+header{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+main{
+    padding: 4rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 textarea{
-    width: 80%;
-    height: 10vh;
-    display: block;
+    width: 30vw;
+    height: 40vh;
+    border: 1px solid black;
+    border-radius: 0.5rem;
     padding: 1rem;
-    margin: 1rem;
+    font-family: var(--font);
+    font-size: larger;
+    resize: none;
 }
 
 #btn-translate{
-    padding: 0.5rem
+    padding: 0.5rem;
+    margin: 1rem;
+    font-family: var(--font);
+    border: none;
+    font-size: larger;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
 }
 
-.guide{
-    font-size: larger;
-    margin: 1rem;
+#btn-translate:hover{
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 #output{
+    width: 30vw;
+    height: 40vh;
     border: 1px solid black;
-    width: 80%;
-    height: 10vh;
-    display: block;
+    border-radius: 0.5rem;
     padding: 1rem;
-    margin: 1rem;
+    font-family: var(--font);
+    font-size: larger;
+}
+
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.25rem;
+}
+
+@media only screen and (max-width : 750px){
+    main{
+          display: block;
+          padding: 5% 15%;
+          padding-top: 10%;
+    }
+    textarea{
+          width:65vw;
+          height: 35vh;
+    }
+    #output{
+        width:65vw;
+        height: 35vh;
+  }
 }
