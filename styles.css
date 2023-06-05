@@ -73,6 +73,11 @@ footer{
 }
 
 @media only screen and (max-width : 750px){
+    
+    header{
+        display: block;
+        text-align: center;
+    }
     main{
           display: block;
           padding: 5% 15%;
